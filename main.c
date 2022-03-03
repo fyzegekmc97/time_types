@@ -21,6 +21,7 @@ typedef struct Coordinates coord ;
 struct Latitude
 {
     coord lat_coord ;
+    /* Denotes if the coordinate is north or south of the equator. */
     bool north_or_south ;
 };
 
@@ -29,16 +30,11 @@ typedef struct Latitude lat ;
 struct Longitude
 {
     coord long_coord ;
+    /* Denotes if the coordinate is to the west of greenwich or east of greenwich */
     bool west_or_east ;
 };
 
 typedef struct Longitude lng ;
-
-
-/* Denotes if the coordinate is to the west of greenwich or east of greenwich */
-bool west_or_east ;
-/* Denotes if the coordinate is north or south of the equator. */
-bool north_or_south ;
 
 int main() {
     printf("Hello, World!\n");
