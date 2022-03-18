@@ -1,4 +1,4 @@
-# Install script for directory: /home/feyzi/CLionProjects/time_types
+# Install script for directory: /home/feyzi/CLionProjects/time_and_coord_types
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/feyzi/CLionProjects/time_types/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/feyzi/CLionProjects/time_and_coord_types/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
